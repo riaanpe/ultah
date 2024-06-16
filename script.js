@@ -33,7 +33,7 @@ var x = setInterval(function () {
         minute.innerHTML = minutes / 10 < 1 ? "0" + minutes : minutes;
         second.innerHTML = seconds / 10 < 1 ? "0" + seconds : seconds;
     } else {
-        cie.innerHTML = 
+        cie.innerHTML = Habede Isna! selamat, lu udah menempuh hidup kurang lebih:;
       var timesThatThrough = now - hariUltah;
       var days = Math.floor(
             (timesThatThrough / (1000 * 60 * 60 * 24))
