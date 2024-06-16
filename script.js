@@ -14,14 +14,16 @@ const load = document.getElementById("load");
 const vid = document.getElementById("bdayVideo");
 const noVid = document.getElementById("noVid");
 const cat = document.getElementById("cat");
+const cie = document.getElementById("cie");
 
-var countDownDate = new Date("Jun 14, 2024 20:00:00").getTime();
+var countDownDate = new Date("Jun 16, 2024 00:00:00").getTime();
 var hariUltah = new Date("Jun 17, 2008 00:00:00").getTime();
 
 var x = setInterval(function () {
     var now = new Date().getTime();
     var distance = countDownDate - now;
     if (distance > 0) {
+        cie.innerHTML = ciee, yang besok ultah;
         var hours = Math.floor(
             (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
         );
@@ -31,6 +33,7 @@ var x = setInterval(function () {
         minute.innerHTML = minutes / 10 < 1 ? "0" + minutes : minutes;
         second.innerHTML = seconds / 10 < 1 ? "0" + seconds : seconds;
     } else {
+        cie.innerHTML = 
       var timesThatThrough = now - hariUltah;
       var days = Math.floor(
             (timesThatThrough / (1000 * 60 * 60 * 24))
